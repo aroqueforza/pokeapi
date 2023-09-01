@@ -20,7 +20,7 @@ El objetivo de esta prueba es realizar consultas al API de Pokemon, obtener Pok�
 
 ### 4. Refactorización y Mejores Prácticas
    - Revisa y refina el código original para asegurar que sigue las mejores prácticas en C#.
-   - Considera cambiar la estructura del proyecto para mejorar la claridad y mantenibilidad, utilizando patrones de diseño adecuados.
+   - Considera cambiar la estructura del proyecto para mejorar la claridad y mantenibilidad, utilizando **patrones de diseño** adecuados(Repositoy, Services, Dependency Injection, etc.).
    - La refactorización debe enfocarse en la limpieza, eficiencia y fácil mantenimiento del código.
 
 ## Criterios de Evaluación
