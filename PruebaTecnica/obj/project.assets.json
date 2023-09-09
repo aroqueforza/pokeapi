@@ -101,6 +101,30 @@
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
+      },
+      "PruebaTecnica.Entities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/PruebaTecnica.Entities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PruebaTecnica.Entities.dll": {}
+        }
+      },
+      "PruebaTecnica.Services/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.3",
+          "PruebaTecnica.Entities": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/PruebaTecnica.Services.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PruebaTecnica.Services.dll": {}
+        }
       }
     }
   },
@@ -472,11 +496,23 @@
         "swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512",
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
+    },
+    "PruebaTecnica.Entities/1.0.0": {
+      "type": "project",
+      "path": "../PruebaTecnica.Entities/PruebaTecnica.Entities.csproj",
+      "msbuildProject": "../PruebaTecnica.Entities/PruebaTecnica.Entities.csproj"
+    },
+    "PruebaTecnica.Services/1.0.0": {
+      "type": "project",
+      "path": "../PruebaTecnica.Services/PruebaTecnica.Services.csproj",
+      "msbuildProject": "../PruebaTecnica.Services/PruebaTecnica.Services.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
       "Newtonsoft.Json >= 13.0.3",
+      "PruebaTecnica.Entities >= 1.0.0",
+      "PruebaTecnica.Services >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.5.0"
     ]
   },
@@ -486,11 +522,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\user\\source\\repos\\PruebaTecnica\\PruebaTecnica\\PruebaTecnica.csproj",
+      "projectUniqueName": "C:\\Users\\user\\Source\\Repos\\Daniel\\pokeapi\\PruebaTecnica\\PruebaTecnica.csproj",
       "projectName": "PruebaTecnica",
-      "projectPath": "C:\\Users\\user\\source\\repos\\PruebaTecnica\\PruebaTecnica\\PruebaTecnica.csproj",
+      "projectPath": "C:\\Users\\user\\Source\\Repos\\Daniel\\pokeapi\\PruebaTecnica\\PruebaTecnica.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\user\\source\\repos\\PruebaTecnica\\PruebaTecnica\\obj\\",
+      "outputPath": "C:\\Users\\user\\Source\\Repos\\Daniel\\pokeapi\\PruebaTecnica\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -501,13 +537,19 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\sdk\\7.0.306\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\user\\Source\\Repos\\Daniel\\pokeapi\\PruebaTecnica.Entities\\PruebaTecnica.Entities.csproj": {
+              "projectPath": "C:\\Users\\user\\Source\\Repos\\Daniel\\pokeapi\\PruebaTecnica.Entities\\PruebaTecnica.Entities.csproj"
+            },
+            "C:\\Users\\user\\Source\\Repos\\Daniel\\pokeapi\\PruebaTecnica.Services\\PruebaTecnica.Services.csproj": {
+              "projectPath": "C:\\Users\\user\\Source\\Repos\\Daniel\\pokeapi\\PruebaTecnica.Services\\PruebaTecnica.Services.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -548,7 +590,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -1,0 +1,15 @@
+C:\Users\user\Source\Repos\Daniel\pokeapi\PruebaTecnica.Services\bin\Debug\net6.0\PruebaTecnica.Services.deps.json
+C:\Users\user\Source\Repos\Daniel\pokeapi\PruebaTecnica.Services\bin\Debug\net6.0\PruebaTecnica.Services.dll
+C:\Users\user\Source\Repos\Daniel\pokeapi\PruebaTecnica.Services\bin\Debug\net6.0\PruebaTecnica.Services.pdb
+C:\Users\user\Source\Repos\Daniel\pokeapi\PruebaTecnica.Services\bin\Debug\net6.0\PruebaTecnica.Entities.dll
+C:\Users\user\Source\Repos\Daniel\pokeapi\PruebaTecnica.Services\bin\Debug\net6.0\PruebaTecnica.Entities.pdb
+C:\Users\user\Source\Repos\Daniel\pokeapi\PruebaTecnica.Services\obj\Debug\net6.0\PruebaTecnica.Services.csproj.AssemblyReference.cache
+C:\Users\user\Source\Repos\Daniel\pokeapi\PruebaTecnica.Services\obj\Debug\net6.0\PruebaTecnica.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Source\Repos\Daniel\pokeapi\PruebaTecnica.Services\obj\Debug\net6.0\PruebaTecnica.Services.AssemblyInfoInputs.cache
+C:\Users\user\Source\Repos\Daniel\pokeapi\PruebaTecnica.Services\obj\Debug\net6.0\PruebaTecnica.Services.AssemblyInfo.cs
+C:\Users\user\Source\Repos\Daniel\pokeapi\PruebaTecnica.Services\obj\Debug\net6.0\PruebaTecnica.Services.csproj.CoreCompileInputs.cache
+C:\Users\user\Source\Repos\Daniel\pokeapi\PruebaTecnica.Services\obj\Debug\net6.0\PruebaTecnica.Services.csproj.CopyComplete
+C:\Users\user\Source\Repos\Daniel\pokeapi\PruebaTecnica.Services\obj\Debug\net6.0\PruebaTecnica.Services.dll
+C:\Users\user\Source\Repos\Daniel\pokeapi\PruebaTecnica.Services\obj\Debug\net6.0\refint\PruebaTecnica.Services.dll
+C:\Users\user\Source\Repos\Daniel\pokeapi\PruebaTecnica.Services\obj\Debug\net6.0\PruebaTecnica.Services.pdb
+C:\Users\user\Source\Repos\Daniel\pokeapi\PruebaTecnica.Services\obj\Debug\net6.0\ref\PruebaTecnica.Services.dll

@@ -1,0 +1,11 @@
+C:\Users\user\Source\Repos\Daniel\pokeapi\PruebaTecnica.Entities\bin\Debug\net6.0\PruebaTecnica.Entities.deps.json
+C:\Users\user\Source\Repos\Daniel\pokeapi\PruebaTecnica.Entities\bin\Debug\net6.0\PruebaTecnica.Entities.dll
+C:\Users\user\Source\Repos\Daniel\pokeapi\PruebaTecnica.Entities\bin\Debug\net6.0\PruebaTecnica.Entities.pdb
+C:\Users\user\Source\Repos\Daniel\pokeapi\PruebaTecnica.Entities\obj\Debug\net6.0\PruebaTecnica.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Source\Repos\Daniel\pokeapi\PruebaTecnica.Entities\obj\Debug\net6.0\PruebaTecnica.Entities.AssemblyInfoInputs.cache
+C:\Users\user\Source\Repos\Daniel\pokeapi\PruebaTecnica.Entities\obj\Debug\net6.0\PruebaTecnica.Entities.AssemblyInfo.cs
+C:\Users\user\Source\Repos\Daniel\pokeapi\PruebaTecnica.Entities\obj\Debug\net6.0\PruebaTecnica.Entities.csproj.CoreCompileInputs.cache
+C:\Users\user\Source\Repos\Daniel\pokeapi\PruebaTecnica.Entities\obj\Debug\net6.0\PruebaTecnica.Entities.dll
+C:\Users\user\Source\Repos\Daniel\pokeapi\PruebaTecnica.Entities\obj\Debug\net6.0\refint\PruebaTecnica.Entities.dll
+C:\Users\user\Source\Repos\Daniel\pokeapi\PruebaTecnica.Entities\obj\Debug\net6.0\PruebaTecnica.Entities.pdb
+C:\Users\user\Source\Repos\Daniel\pokeapi\PruebaTecnica.Entities\obj\Debug\net6.0\ref\PruebaTecnica.Entities.dll

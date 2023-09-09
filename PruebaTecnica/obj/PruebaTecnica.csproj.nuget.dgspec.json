@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user\\source\\repos\\PruebaTecnica\\PruebaTecnica\\PruebaTecnica.csproj": {}
+    "C:\\Users\\user\\Source\\Repos\\Daniel\\pokeapi\\PruebaTecnica\\PruebaTecnica.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user\\source\\repos\\PruebaTecnica\\PruebaTecnica\\PruebaTecnica.csproj": {
+    "C:\\Users\\user\\Source\\Repos\\Daniel\\pokeapi\\PruebaTecnica.Entities\\PruebaTecnica.Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\source\\repos\\PruebaTecnica\\PruebaTecnica\\PruebaTecnica.csproj",
-        "projectName": "PruebaTecnica",
-        "projectPath": "C:\\Users\\user\\source\\repos\\PruebaTecnica\\PruebaTecnica\\PruebaTecnica.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Source\\Repos\\Daniel\\pokeapi\\PruebaTecnica.Entities\\PruebaTecnica.Entities.csproj",
+        "projectName": "PruebaTecnica.Entities",
+        "projectPath": "C:\\Users\\user\\Source\\Repos\\Daniel\\pokeapi\\PruebaTecnica.Entities\\PruebaTecnica.Entities.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\source\\repos\\PruebaTecnica\\PruebaTecnica\\obj\\",
+        "outputPath": "C:\\Users\\user\\Source\\Repos\\Daniel\\pokeapi\\PruebaTecnica.Entities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -22,13 +22,139 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\sdk\\7.0.306\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\user\\Source\\Repos\\Daniel\\pokeapi\\PruebaTecnica.Services\\PruebaTecnica.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\user\\Source\\Repos\\Daniel\\pokeapi\\PruebaTecnica.Services\\PruebaTecnica.Services.csproj",
+        "projectName": "PruebaTecnica.Services",
+        "projectPath": "C:\\Users\\user\\Source\\Repos\\Daniel\\pokeapi\\PruebaTecnica.Services\\PruebaTecnica.Services.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\user\\Source\\Repos\\Daniel\\pokeapi\\PruebaTecnica.Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\user\\Source\\Repos\\Daniel\\pokeapi\\PruebaTecnica.Entities\\PruebaTecnica.Entities.csproj": {
+                "projectPath": "C:\\Users\\user\\Source\\Repos\\Daniel\\pokeapi\\PruebaTecnica.Entities\\PruebaTecnica.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\user\\Source\\Repos\\Daniel\\pokeapi\\PruebaTecnica\\PruebaTecnica.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\user\\Source\\Repos\\Daniel\\pokeapi\\PruebaTecnica\\PruebaTecnica.csproj",
+        "projectName": "PruebaTecnica",
+        "projectPath": "C:\\Users\\user\\Source\\Repos\\Daniel\\pokeapi\\PruebaTecnica\\PruebaTecnica.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\user\\Source\\Repos\\Daniel\\pokeapi\\PruebaTecnica\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\user\\Source\\Repos\\Daniel\\pokeapi\\PruebaTecnica.Entities\\PruebaTecnica.Entities.csproj": {
+                "projectPath": "C:\\Users\\user\\Source\\Repos\\Daniel\\pokeapi\\PruebaTecnica.Entities\\PruebaTecnica.Entities.csproj"
+              },
+              "C:\\Users\\user\\Source\\Repos\\Daniel\\pokeapi\\PruebaTecnica.Services\\PruebaTecnica.Services.csproj": {
+                "projectPath": "C:\\Users\\user\\Source\\Repos\\Daniel\\pokeapi\\PruebaTecnica.Services\\PruebaTecnica.Services.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -69,7 +195,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

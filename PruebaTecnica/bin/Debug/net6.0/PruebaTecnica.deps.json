@@ -9,6 +9,8 @@
       "PruebaTecnica/1.0.0": {
         "dependencies": {
           "Newtonsoft.Json": "13.0.3",
+          "PruebaTecnica.Entities": "1.0.0",
+          "PruebaTecnica.Services": "1.0.0",
           "Swashbuckle.AspNetCore": "6.5.0"
         },
         "runtime": {
@@ -69,6 +71,20 @@
             "fileVersion": "6.5.0.0"
           }
         }
+      },
+      "PruebaTecnica.Entities/1.0.0": {
+        "runtime": {
+          "PruebaTecnica.Entities.dll": {}
+        }
+      },
+      "PruebaTecnica.Services/1.0.0": {
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.3",
+          "PruebaTecnica.Entities": "1.0.0"
+        },
+        "runtime": {
+          "PruebaTecnica.Services.dll": {}
+        }
       }
     }
   },
@@ -126,6 +142,16 @@
       "sha512": "sha512-OvbvxX+wL8skxTBttcBsVxdh73Fag4xwqEU2edh4JMn7Ws/xJHnY/JB1e9RoCb6XpDxUF3hD9A0Z1lEUx40Pfw==",
       "path": "swashbuckle.aspnetcore.swaggerui/6.5.0",
       "hashPath": "swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512"
+    },
+    "PruebaTecnica.Entities/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PruebaTecnica.Services/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }
