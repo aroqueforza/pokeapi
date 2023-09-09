@@ -3,6 +3,9 @@ using Newtonsoft.Json;
 using PruebaTecnica.Models;
 using PruebaTecnica.Services;
 using PruebaTecnica.Services.Interfaces;
+using PruebaTecnica.Services.Services;
+using System.Collections.Generic;
+using System.Data;
 
 namespace PruebaTecnica.Controllers
 {
@@ -16,17 +19,20 @@ namespace PruebaTecnica.Controllers
         }
 
         [HttpPost]
-        public async Task<ActionResult<List<PokemonInfoModel>>> GetPokemons([FromBody] List<string> extraTypes, int topByType=0)
+        public async Task<ActionResult<List<PokemonInfoModel>>> GetPokemons([FromBody] List<string> extraTypes, int topByType = 0)
         {
-            var result=await this._pokemonHttpClientService.getPokemonsByTypeAsync(extraTypes, topByType);
+            var result = await this._pokemonHttpClientService.getPokemonsByTypeAsync(extraTypes, topByType);
             return Ok(JsonConvert.SerializeObject(result));
         }
 
         [HttpPost("Parallel")]
-        public async Task<ActionResult<List<PokemonInfoModel>>> GetPokemons2([FromBody] List<string> extraTypes,int topByType=0)
+        public async Task<IActionResult> GetPokemons2([FromBody] List<string> extraTypes,[FromQuery] List<string> properties,int topByType=0)
         {
             var result = await this._pokemonHttpClientService.getPokemonsByTypeParallelAsync(extraTypes, topByType);
-            return Ok(JsonConvert.SerializeObject(result));
+            DataTable dt = new DataTable();
+            if(result!=null)
+                dt=ReflectionService<PokemonInfoModel>.GetObject(properties, result);
+            return Ok(JsonConvert.SerializeObject(dt));
         }
 
     }

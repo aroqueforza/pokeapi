@@ -3,6 +3,7 @@ using PruebaTecnica.Models;
 using PruebaTecnica.Services.Interfaces;
 using System.Diagnostics.CodeAnalysis;
 using System.Linq;
+using System.Reflection;
 
 namespace PruebaTecnica.Services
 {
@@ -58,7 +59,7 @@ namespace PruebaTecnica.Services
             var taskResults = await Task.WhenAll(taskPokemonTypes);
 
             taskResults.ToList().ForEach(o => ResultPokemonInfoModel.AddRange(o));
-
+            
             return await Task.FromResult(ResultPokemonInfoModel);
         }
 
