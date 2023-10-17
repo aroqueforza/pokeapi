@@ -1,0 +1,14 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+*.vsidx
+/.vs/PruebaTecnica/v17/.suo
+/PruebaTecnica/obj/Debug/net6.0/PruebaTecnica.assets.cache
+/PruebaTecnica/obj/Debug/net6.0/PruebaTecnica.csproj.AssemblyReference.cache
+/PruebaTecnica/obj/Debug/net6.0/PruebaTecnica.GeneratedMSBuildEditorConfig.editorconfig
+/PruebaTecnica/obj/project.assets.json
+/PruebaTecnica/obj/project.nuget.cache
+/PruebaTecnica/obj/PruebaTecnica.csproj.nuget.dgspec.json
+/PruebaTecnica/obj/PruebaTecnica.csproj.nuget.g.props
+/PruebaTecnica/PruebaTecnica.csproj.user
